@@ -1,6 +1,7 @@
 plugins {
   id("com.android.application")
   id("org.jetbrains.kotlin.android")
+  id("com.google.gms.google-services")
 }
 
 android {
@@ -47,4 +48,10 @@ dependencies {
 
   // for drawing
   implementation("com.raedapps:rasmview:1.2.1")
+
+  // Firebase
+  implementation(platform("com.google.firebase:firebase-bom:32.3.1"))
+
+  // Firebase Realtime Database
+  implementation("com.google.firebase:firebase-database-ktx")
 }

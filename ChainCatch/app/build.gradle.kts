@@ -54,4 +54,8 @@ dependencies {
 
   // Firebase Realtime Database
   implementation("com.google.firebase:firebase-database-ktx")
+
+  // for GIF
+  implementation("com.github.bumptech.glide:glide:4.16.0")
+  annotationProcessor("com.github.bumptech.glide:compiler:4.12.0")
 }
